@@ -5,10 +5,10 @@
   <img src="https://img.shields.io/github/repo-size/razcristea/URLshortener?color=green" /> <img src="https://img.shields.io/github/license/razcristea/URLshortener" /> <img src="https://img.shields.io/badge/python-3.7-green?logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/debian-VPS-red?logo=debian&logoColor=white" /> <img src="https://img.shields.io/badge/Django-framework-red?logo=django&logoColor=white" />
 </p>
 
-<p align="center"><a href="http://www.razvancristea.ro/URLshorten" target="_blank"><img src="https://i.postimg.cc/sxGMNFrh/urlshorten.png" width="500px"/></a></p>
+<p align="center"><a href="http://www.razvancristea.ro/URLshorten/" target="_blank"><img src="https://i.postimg.cc/sxGMNFrh/urlshorten.png" width="500px"/></a></p>
 
 ## Description
-<a href="http://www.razvancristea.ro/URLshorten" target="_blank">URLshortener</a> is a basic URL shortener app created in Django.
+<a href="http://www.razvancristea.ro/URLshorten/" target="_blank">URLshortener</a> is a basic URL shortener app created in Django.
 
 A step-by-step explanation of implementation is described in `views.py`:
 
