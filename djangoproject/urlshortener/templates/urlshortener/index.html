@@ -1,0 +1,31 @@
+{% extends "urlshortener/base.html" %}
+
+{% block body %}
+<div class="container">
+  <h1>URLshortener</h1>
+  {% if messages %}
+  <ul class="messages">
+      {% for msg in messages %}
+      <li>
+          <div class="alert alert-{{msg.level_tag}} alert-dismissible fade show" role="alert">
+            <strong>{{msg.message}}</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+      </li>
+      {% endfor %}
+  </ul>
+  {% endif %}
+
+  <form class="" action="{% url 'index' %}" method="post">
+    {% csrf_token %}
+    {{ form }}
+    {% if copy %}
+      <button type="button" class="btn btn-success" onclick="myFunction()">Copy!</button>
+    {% else %}
+      <input type="submit" value="Shorten"/>
+    {% endif %}
+  </form>
+</div>
+{% endblock %}
